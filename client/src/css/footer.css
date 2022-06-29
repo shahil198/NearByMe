@@ -1,0 +1,83 @@
+.main-footer{
+    background-color: black;
+    height: 250px;
+    margin-top: 50px;
+    /* border: 3px solid rgb(232, 34, 34); */
+    color: white;
+    position: relative;
+}
+.footer-up{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  /* border:2px solid pink; */
+  padding: 10px 10px;
+}
+.footer-up-left{
+  /* border: 2px solid greenyellow; */
+  text-align: center;
+  margin-top: px;
+}
+.desc-left{
+    font-size: 13px;
+}
+.topic-left, .topic-mid , .topic-right{
+    
+    padding:5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.topic-left h4, .topic-mid h4, .topic-right h4{
+    box-shadow: 2px 2px 3px rgb(137, 137, 137) inset;
+    width: fit-content;
+    border-left:3px solid rgb(153, 144, 144) ;
+    border-bottom: 1px solid rgb(153, 144, 144) ;
+    
+}
+.footer-up-mid{
+/* border:2px solid red; */
+/* float:left; */
+}
+.mid-all{
+  display: flex;
+  justify-content: center;
+}
+.mid-all li{
+    list-style-type:none;
+    font-size: 13px;
+    padding: 3px;
+    
+}
+
+
+
+
+.desc-right{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+.desc-right p{
+    /* margin-left: 5px; */
+    padding: 5px;
+    
+}
+.desc-right span{
+    margin-right: 5px;
+}
+
+.footer-down{
+    height: auto;
+    /* border: 2px solid white; */
+    position: absolute;
+    width:100%;
+    text-align: center;
+    bottom: 0;
+    padding: 2px 4px;
+    background-color: rgb(17, 15, 15);
+    font-size: 13px;
+
+    
+}

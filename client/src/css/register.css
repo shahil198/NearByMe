@@ -1,0 +1,120 @@
+.reg-uni{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.register-container{
+    background-color: rgb(149, 146, 152);
+    /* border: 3px solid red; */
+    /* height:200px; */
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center;
+    padding-left: 30px;
+    padding-right: 30px; */
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.reg-form {
+
+    margin-top: 30px;
+    /* border: 4px solid yellow; */
+    background-color: rgb(113, 112, 110);
+    border-radius: 4px;
+    margin-left:0px;
+    padding: 30px;
+
+}.register-heading{
+    font-size: 30px;
+}
+.register-p{
+    color: rgb(13, 12, 12);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.reg-form-det{
+    /* border: 1px solid green; */
+    padding: 3px;
+    margin: 30px;
+}
+.reg-form-det label{
+    float: left;
+    font-size: 17px;
+    font-style: bold;
+}
+.reg-form-det input{
+    float: right;
+    /* outline: none; */
+    background-color: black;
+    width: 250px;
+    
+}
+.reg-form-det1 label{
+    font-size: 17px;
+    margin-right: 8px;
+    margin-left: 5px;
+    /* border: 3px solid rgb(241, 16, 12); */
+    
+}
+.reg-form-det1{
+    margin-left:25px ;
+    border: 2px solid #71706E;
+}
+.reg-form-det1 input{
+    margin-left: 10px;
+
+    
+    
+
+}
+
+.reg-multiple{
+    /* border: 3px solid black; */
+    /* display: inline-block; */
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+.reg-multiple{
+    display: flex;
+}
+.reg-multiple-left{
+    margin-right: 50px;
+}
+.reg-button{
+    color: rgb(253, 237, 237);
+    width: 180px;
+    background-color: black;
+    border-radius: 24px;
+    height: 40px;
+    padding: 5px;
+    /* align-items: center; */
+    /* display: inline-block; */
+    /* margin: auto; */
+
+
+}
+.reg-btn{
+    /* border: 3px solid wheat; */
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.reg-button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+}
+.reg-multiple-right lable{
+    /* border: 2px solid red; */
+    margin-right: 14px;
+}

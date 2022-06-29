@@ -1,0 +1,12 @@
+.front{
+    
+    background-color: rgb(157,162,156);
+   
+}
+.menubar{
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid black;
+    border: 3px solid rgb(148, 148, 148);
+    
+}
